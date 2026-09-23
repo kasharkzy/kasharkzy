@@ -1,48 +1,36 @@
-<h1 align="center">Hey 👋What's Up?</h1>
+## Hi, I'm Kaue Campos
 
-###
+Backend engineer and **open source developer**. I build backend systems in Node.js/TypeScript and Go, with a focus on distributed systems, observability and AI agents.
 
-<br clear="both">
+- Software developer since 2018, currently a Software Engineer at **Claro Brasil**
+- Open source contributor to **[Prometheus](https://github.com/prometheus/prometheus)**
+- Interested in clean architecture, performance, and building reliable systems around LLMs
 
-<p align="left">- Software Developer since 2018<br>- I’m working as a FullStack Engineer, focusing on developing and optimizing both frontend and backend solutions.<br>-  I'm currently learning advanced techniques in javascript and golang</p>
+### Open source
 
-###
+| Project | Contribution | Status |
+|---|---|---|
+| [prometheus/prometheus](https://github.com/prometheus/prometheus) | [promql: fix inconsistent labelset collision error for range vector functions](https://github.com/prometheus/prometheus/pull/18631): range vector functions like `rate()` and `max_over_time()` no longer fail with a spurious *"vector cannot contain metrics with the same labelset"* error when series with different metric names don't overlap in time. Fixes [#14695](https://github.com/prometheus/prometheus/issues/14695). | ✅ Merged, Sep 2026 |
 
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" height="60" alt="graphql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" height="60" alt="nestjs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" height="60" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" height="60" alt="go logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="60" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" height="60" alt="kotlin logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="60" alt="amazonwebservices logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="60" alt="kubernetes logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" height="60" alt="docker logo"  />
-</div>
+### Featured projects
 
-###
+| Project | What it is |
+|---|---|
+| [banking-graphql](https://github.com/kasharkzy/banking-graphql) | GraphQL banking API on Bun, Hono, GraphQL Yoga and Prisma, built with ports & adapters: domain logic isolated from HTTP, GraphQL and the database, tested with Vitest and in-memory repositories. |
+| [bombardier-http](https://github.com/kasharkzy/bombardier-http) | HTTP load-testing CLI in Go: JSON-defined requests, concurrency, rate limiting and staged load plans, with latency percentiles, throughput and status-code breakdown. |
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/kauecampos/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  </a>
-  <a href="https://dev.to/sh4rkzy" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="devto logo"  />
-  </a>
-</div>
+### Currently working on
 
-###
+- Idempotent transfers, the outbox pattern and OpenTelemetry tracing in `banking-graphql`
+- An AI agent that operates the banking API through an **MCP server**, with human approval for money-moving actions and evals in CI
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=kasharkzy&locale=en&mode=weekly&theme=merko&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-</div>
+### Stack
 
-###
+**Languages:** TypeScript · JavaScript · Go  
+**Backend:** Node.js · Bun · NestJS · Hono · GraphQL · Prisma  
+**Infra & tooling:** Docker · GitHub Actions · Prometheus
+
+### Find me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kauecampos/)
+[![dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/sh4rkzy)
