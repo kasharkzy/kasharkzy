@@ -54,3 +54,15 @@
 </picture>
 
 ###
+
+<h3 align="center">🌱 Open Source Contributions</h3>
+
+<div align="center">
+
+| Project | Contribution | Status |
+|:---:|---|:---:|
+| <a href="https://github.com/prometheus/prometheus"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" height="20" alt="prometheus logo" /> <b>prometheus/prometheus</b></a><br><img src="https://img.shields.io/github/stars/prometheus/prometheus?style=flat-square&label=%E2%AD%90" alt="stars" /> | <a href="https://github.com/prometheus/prometheus/pull/18631"><b>#18631</b></a> · promql: fix inconsistent labelset collision error for range vector functions like <code>rate()</code> and <code>max_over_time()</code> | <img src="https://img.shields.io/badge/merged-8957e5?style=flat-square&logo=github&logoColor=white" alt="merged" /> |
+
+</div>
+
+###
