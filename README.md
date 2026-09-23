@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">- Software developer since 2018, currently a Software Engineer at <b>Claro Brasil</b>, building and scaling backend systems with Node.js, TypeScript and Go.<br>- Open source developer and contributor to <a href="https://github.com/prometheus/prometheus">Prometheus</a>, where I fixed a PromQL bug that made range vector functions like <code>rate()</code> and <code>max_over_time()</code> fail with a false labelset collision error (<a href="https://github.com/prometheus/prometheus/pull/18631">#18631</a>).<br>- I enjoy clean architecture, performance and observability, and lately I've been building AI agents and MCP servers on top of real backend systems.<br>- Always open to contributing to open source projects, so feel free to reach out.</p>
+<p align="left">- 👨‍💻 Backend Engineer at <b>Claro Brasil</b>, writing software since 2018<br>- 🌍 Open source developer, contributing to projects like <b>Prometheus</b><br>- ⚡ Node.js · TypeScript · Go · GraphQL · distributed systems · observability<br>- 🤖 Currently exploring AI agents and MCP servers on top of real backend systems<br>- 📫 Open to open source collabs, feel free to reach out or check out my pinned repos</p>
 
 ###
 
